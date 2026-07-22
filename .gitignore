@@ -1,0 +1,41 @@
+# --- Turborepo ---
+.turbo/
+node_modules/
+dist/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Next.js ---
+.next/
+.cache/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+*.egg
+
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Design ---
+design/source/
+
+# --- Docker ---
+.docker/
